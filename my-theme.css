@@ -2,7 +2,7 @@
     /* --base-font-size: 14px; */
     /* --theme-color   : purple; */
     --cover-color :red;
-    --sidebar-nav-link-before-content-l1: '😀';
+    --sidebar-nav-link-before-content-l1: '馃榾';
     --sidebar-nav-link-background-color--active   : red;
     --sidebar-nav-link-background-color--hover    : red;
     --cus-color: #0B93E9;
@@ -11,7 +11,7 @@
     --theme-color-secondary:#030418;
   }
 /* 
-  �������ظ���ͷ�ֶ�������
+  表格中重复表头字段问题解决
 */
 td::before{
 	content:""!important;
@@ -130,7 +130,7 @@ td::before{
     letter-spacing: 0;
     background: url(./assets/icon_search.svg) no-repeat left center
 }
-/* 响应式布局 */
+/* 鍝嶅簲寮忓竷灞� */
 @media screen and (max-width:500px){
     .cusImg{
         padding-left: 10px;
@@ -170,7 +170,7 @@ td::before{
     background: url('./assets/down.svg') no-repeat right center;
 } */
 
-/* 展开箭头 */
+/* 灞曞紑绠ご */
 .sidebar-nav li>a[href^="#/"]:not([href*="?id="]):not(:only-child){
     background: var(--sidebar-nav-pagelink-background-image);
 }
@@ -189,13 +189,13 @@ td::before{
     
 }
 
-/* .anchor::before{
+/**/ .anchor::before{
     position: static;
     display:block;
     content:'';
     width:100%;
     height:60px;
-} */
+} 
 
 h2 .anchor::before{
     display: flex;
